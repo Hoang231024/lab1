@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10sp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fpt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:text="Email:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edemail"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/editdn"
+            android:hint="Nhập email"
+            android:textColor="@color/black"
+
+            android:padding="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:text="Password"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/edipass"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@drawable/editdn"
+                android:hint="Nhập password"
+                android:textColor="@color/black"
+                android:padding="10sp" />
+
+            <ImageView
+                android:id="@+id/mat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-40sp"
+                android:src="@drawable/mat_eye_24" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btndn"
+            android:layout_width="360sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50sp"
+            android:background="@color/black"
+            android:text="LOGIN"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtforgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:text="@string/forgot_password"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:id="@+id/txtsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sing_up"
+            android:layout_marginTop="20sp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/btn_lay_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dang nhap bang OTP"
+            android:layout_marginTop="20sp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

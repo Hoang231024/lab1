@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+        <solid android:color="@color/white"/>
+            <stroke
+                android:width="3dp"
+                android:color="@color/black" />
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp" />
+            <corners android:radius="10sp"/>
+        </shape>
+
+    </item>
+
+    <!--    <item android:drawable="@drawable/transparent_background" /> &lt;!&ndash; Nếu cần, bạn có thể thêm một layer phủ lên nút để giữ nguyên nền của nút &ndash;&gt;-->
+</layer-list>
+
